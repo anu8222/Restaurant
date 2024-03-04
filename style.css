@@ -1,0 +1,285 @@
+html {
+    scroll-behaviour: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url("img/IMG-20230108-WA0005.jpg");
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: latha;
+}
+
+#logo {
+    width: 500px;
+    float: left;
+}
+
+.header {
+    width: 100%;
+    background: black;
+    height: 40px;
+    position: sticky;
+    top: 0;
+}
+
+.header ul li {
+    width: 170px;
+    line-height: 60px;
+    float: left;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: darkgrey;
+}
+
+.header ul li a:hover {
+    background-color: red;
+    color: white;
+}
+
+.wid {
+    width: 400px;
+    height: 610px;
+    background-color: black;
+    opacity: 0.9;
+    padding: 50px;
+}
+
+.wid h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100px;
+    color: white;
+}
+
+.wid h4 {
+    text-align: justify;
+    font-weight: normal;
+    color: darkgray;
+}
+
+.wid h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 40px auto;
+    color: white;
+}
+
+.opt {
+    text-align: center;
+}
+
+.opt button {
+    color: black;
+    background: darkgrey;
+    border-radius: 8px;
+    padding: 10px 70px;
+}
+
+.opt button:hover {
+    background: green;
+}
+
+.menu {
+    width: 100%;
+    padding: 70px 0;
+}
+
+.menu h1 {
+    font-size: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.menu h1 span {
+    color: #fac031;
+    margin-left: 15px;
+    font-family: mv boli;
+}
+
+.menu h1 span::after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #fac031;
+    display: block;
+    position: relative;
+    bottom: 15px;
+}
+
+.column {
+    width: 800px;
+    height: 500px text-align:center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    overflow: auto;
+}
+
+.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 390px;
+}
+
+.gallery img {
+    height: auto;
+    cursor: pointor;
+}
+
+#place {
+    text-decoration: none;
+    color: white;
+    background: green;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+#order {
+    background-color: #FFB6C1;
+    background-repeat: no-repeat;
+}
+
+table {
+    height: 430px;
+}
+
+input {
+    width: 100%;
+    height: 35px;
+    border: 2px solid black;
+    font-size: 20px;
+}
+
+textarea {
+    width: 400px;
+    height: 70px;
+    border: 2px solid black;
+    font-size: 20px;
+}
+
+select {
+    width: 100%;
+    height: 35px;
+    border: 2px solid black;
+    font-size: 20px;
+}
+
+button {
+    color: black;
+    background: white;
+    border-radius: 8px;
+    padding: 5px 110px;
+}
+
+#abt {
+    background-image: url("img/IMG-20230114-WA0020.jpg");
+    background-repeat: no-repeat;
+}
+
+#con {
+    background: url("img/IMG-20230116-WA0022.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+#con h1 {
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    background: black;
+}
+
+.footer_tag a {
+    text-decoration: none;
+    color: darkgray;
+}
+
+.footer_tag {
+    float: left;
+    width: 430px;
+}
+
+.footer_tag p {
+    color: darkgrey;
+}
+
+.form-element {
+    width: 300px;
+}
+
+.form-popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 15px;
+    display: none;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+    background-color: white;
+}
+
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color;
+    white;
+}
+
+.form-container input[type=text],
+.form-container input[type=password] {
+    width: 100px;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+.form-container input[type=text]:focus,
+.form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.form-container .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    width: 200px;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+.form-container .cancel {
+    background-color: red;
+}
+
+.form-container .btn:hover,
+.open-button:hover {
+    opacity: 1;
+}

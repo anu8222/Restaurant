@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Restaurant </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+<!-- header -->
+<div class="header">
+<div id="logo">
+<img src="img/IMG_20230114_175021.jpg" width="200px" height="40px"></div>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="Menu.html">Menu</a></li>
+<li><a href="Order.html">Order</a></li>
+<li><a href="about.html">About Us</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</div>
+
+<div class="wid">
+<h1 style=color:"white"><a name="home"> Welcome!</h1>
+<h4 style=color:"darkgray">FYI! WE OFFER FULL-SERVICE CATERING FOR ANY
+EVENT, LARGE OR SMALL.WE UNDERSTAND YOUR
+NEED AND WE WILL CATER THE FOOD TO SATYISFY THE
+BIGGERST OF THEM ALL,BOTH LOOK AND TASTE.</h4>
+<h2 style=color:"white">Reservation</h2>
+
+<div class="opt">
+<button onclick="openForm()">Submit</button>
+</div>
+</div>
+</div>
+<!-- end header -->
+
+
+<div class="form-popup" id="myForm">
+<form action="" class="form-container">
+<h2 align="center">Log in</h2>
+<div class="form-element">
+<label for="email">Email:</lable>
+<input type="text"></div>
+<div class="form-element">
+<label for="pass">Password:</lable>
+<input type="password"></div><br>
+<div>
+<a href="index.html"><button type="submit" class="btn">Login</button><br></a></div>
+<button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+</form>
+</div>
+
+ <!-- footer -->
+<footer>
+      
+<div class="footer">
+ <div class="footer_tag">
+                <h2 style="color:white">Contact</h2>
+                <p>+94 12 3456 789</p>
+                <p>+94 25 5568456</p>
+                <p>johndeo123@gmail.com</p>
+            </div>           
+
+          
+<div class="footer_tag">
+<h2 style="color:white">List</h2>
+<h4 style="color:white"><a href="index.html">Home</a></h4>
+<h4 style="color:white"><a href="Menu.html">Menu</a></h4>
+<h4 style="color:white"><a href="#Order.html">Online Order</a></h4>
+<h4 style="color:white"><a href="#about.html">About Us</a></h4>
+<h4 style="color:white"><a href="#contact.html">Contact</a></h4>
+</div>
+
+            
+            <div class="footer_tag">
+                <h2 style="color:white">Our Service</h2>
+                <p>Fast Delivery</p>
+                <p>Easy Payments</p>
+                <p>24 x 7 Service</p>
+            </div>
+<h2 align="center" color="darkgrey">Copyright@2022</h2>
+</div>
+</footer>
+<!-- end footer -->
+
+</body>
+</html>
